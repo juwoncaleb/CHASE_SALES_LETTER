@@ -46,7 +46,7 @@ export default function Home() {
             <p className="results"> THE ONLY WAY TO WIN</p>
             <div className="state_div">
               <p className="results_statment mb-8 mt-8">
-              The only way to win , win as big as <a className="serhant" href="https://www.instagram.com/serhant/?hl=en">SERHANT</a>- Biggest Realtor in New York, is to be likeable. PEOPLE BUY FROM PEOPLE! The only reason why we both could be a good fit, is not only due to my service. However it is based on if we have MUTUAL likeness for each other. Same with real estate, the only way to get AHEAD , to truly get AHEAD us by having and AUTHENTIC personality that people are drawn to. You also do not have to be a SECRET! Most realtors are good at their job , however people cant just find them. When you type "realtors in [your location]", how easy was it to find yourself on google. THIS IS THE TYPICAL CLIENT JOURNEY OF MOST HOMEBUYERS AND HOMESELLERS
+              The only way to win , win as big as <a className="serhant" href="https://www.instagram.com/serhant/?hl=en">SERHANT</a>- Biggest Realtor in New York, is to be likeable. PEOPLE BUY FROM PEOPLE! The only reason why we both could be a good fit, is not only due to my service. However it is based on if we have MUTUAL likeness for each other. Same with real estate, the only way to get AHEAD , to truly get AHEAD us by having and AUTHENTIC personality that people are drawn to. You also do not have to be a SECRET! Most realtors are good at their job , however people cant just find them. When you type realtors in [your location], how easy was it to find yourself on google. THIS IS THE TYPICAL CLIENT JOURNEY OF MOST HOMEBUYERS AND HOMESELLERS
               </p>
               <div className="flex services justify-around mt-14 mb-10">
                 <div>
@@ -251,7 +251,7 @@ export default function Home() {
                 When a prospect searched for any property the first link that
                 shows-up is ZILLOW. It is impossible to beat zillow on property
                 keywords . However every month about 300,000 times , the key
-                work "REALTORS NEAR ME" is searched. By optimizaing your GOOGLE
+                work REALTORS NEAR ME is searched. By optimizaing your GOOGLE
                 BUSINESS PAGE ,you will be getting a share of this traffic for
                 FREE. Also by writing blogs on topic your clients are looking
                 for . Gives you higher authority with GOOGLE, and you rank
