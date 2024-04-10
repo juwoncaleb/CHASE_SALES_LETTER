@@ -1,0 +1,356 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 800
+
+.header_text {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 112px;
+  line-height: 90px;
+  margin-top: 100px;
+}
+.deasl {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 76px;
+  line-height: 129px;
+}
+
+.context {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.span {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #dfff9c;
+}
+.sub_pain {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 27px;
+}
+.get_started_button_green {
+  margin-top: 40px;
+  width: 300px;
+  height: 80px;
+  background-color: black;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+.content {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  margin-top: 23px;
+}
+.time {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 102px;
+  line-height: 100px;
+  margin-top: 100px;
+}
+.time_sub {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 50px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.time_sub_so {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 50px;
+}
+
+.wistia-embed-wrapper {
+  /* Add styles for the wrapper div as needed,
+     e.g., margin: auto, max-width: 100%; */
+}
+
+.wistia-embed {
+  /* Target the iframe specifically.
+     You can control aspect ratio here or globally
+     using a CSS class for all iframes. */
+  width: 100%; // Ensures responsive behavior
+  height: 100%; // Adjust as needed for desired aspect ratio
+}
+.fixed-background {
+  color: white !important;
+  background-image: url("./../public/palor.jpg"); /* Replace with your image path */
+  background-attachment: fixed;
+  background-size: cover; /* Or adjust as needed (e.g., contain) */
+  height: 900px; /* Or set a specific height */
+}
+.stats {
+  color: white !important;
+}
+.jana {
+  margin-top: 110px;
+}
+.stat_sub {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 24px;
+}
+.results_statment {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25px;
+}
+.stat_header {
+  font-family: "Syncopate", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+.state_div {
+  max-width: 900px;
+}
+.results {
+  font-family: "Syncopate", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  padding-top: 100px;
+}
+.red_flag {
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: red;
+}
+.sopp {
+  max-width: 600px;
+}
+.zil {
+  background-color: dodgerblue;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 14px;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 102px;
+  line-height: 100px;
+  margin-top: 100px;
+}
+.trend {
+  height: 400px;
+  margin-top: 90px;
+}
+@media only screen and (max-width: 1024px) {
+  .header_text {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 90px;
+    margin-top: 100px;
+  }
+  .deasl {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 69px;
+  }
+  .sub_pain {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 22px;
+  }
+  .time {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 100px;
+    margin-top: 100px;
+  }
+  .time_sub {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 50px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+  .content {
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    margin-top: 23px;
+  }
+  .impression {
+    line-height: 60px;
+
+    font-size: 55px !important;
+  }
+  .time_sub_so {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 50px;
+  }
+  .seo {
+    display: grid;
+  }
+  .time_sub_so {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .header_text {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 65px;
+    margin-top: 100px;
+  }
+  .deasl {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+  }
+  .sub_pain {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 17px;
+  }
+  .time {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 100px;
+    margin-top: 100px;
+  }
+  .time_sub {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 50px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+  .content {
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    margin-top: 23px;
+  }
+  .impression {
+    line-height: 60px;
+
+    font-size: 55px !important;
+  }
+  .time_sub_so {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 50px;
+  }
+  .seo {
+    display: grid;
+  }
+  .time_sub_so {
+    margin-top: 0px;
+  }
+  .fixed-background {
+    color: white !important;
+    background-image: url("./../public/palor.jpg"); /* Replace with your image path */
+    background-attachment: fixed;
+    background-size: cover; /* Or adjust as needed (e.g., contain) */
+  }
+  .results {
+    font-family: "Syncopate", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+  }
+  .results_statment {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+  }
+  .stat_header {
+    font-family: "Syncopate", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+  }
+  .expensive {
+    display: grid;
+  }
+  .free {
+    display: none;
+  }
+}
+@media only screen and (min-width: 770px) {
+  .edit {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .services {
+    display: grid;
+  }
+  .zil {
+    background-color: dodgerblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 14px;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 100px;
+    margin-top: 100px;
+  }
+  .trend {
+    height: 300px;
+    margin-top: 90px;
+  }
+  .iframeEmbed {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 70px;
+    aspect-ratio: 1.7780429594;
+  }
+  
+  .fixed-background {
+    color: white !important;
+    background-image: url("./../public/palor.jpg"); /* Replace with your image path */
+    background-attachment: fixed;
+    background-size: cover; /* Or adjust as needed (e.g., contain) */
+    height: 900px; /* Or set a specific height */
+  }
+  .stat_header {
+    margin-top: 50px;
+  }
+}
+.serhant{
+  text-decoration: underline;
+ background-color: red;
+ color: white;
+}
