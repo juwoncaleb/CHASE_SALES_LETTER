@@ -2,12 +2,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
 export default function Footer() {
-  const images = [
-    "https://ik.imagekit.io/juwoncaleb/ho3_g8S4ENWCL.webp?updatedAt=1693945103456",
-    "https://ik.imagekit.io/juwoncaleb/ho1_yCoYqt0JQ.webp?updatedAt=1693945103515",
-    "https://ik.imagekit.io/juwoncaleb/ho2_7g2qslYlW.webp?updatedAt=1693945103567",
-  ];
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -28,9 +23,7 @@ export default function Footer() {
             <button className="start_now">Talk to Us</button>
           </Link>
         </div>
-        <div>
-          <img src={images[currentImageIndex]} />
-        </div>
+       
       </div>
       <div className="footer bg-black">
         <hr className="footer_line" />
