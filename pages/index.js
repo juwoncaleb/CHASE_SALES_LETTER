@@ -46,7 +46,7 @@ export default function Home() {
             </button>
 
             <button className="get_started_button_green">
-              <a href="https://demolink-drab.vercel.app/">John New Website </a>
+              <a href="https://demolink-drab.vercel.app/"> New Website </a>
             </button>
           </div>
         </center>
