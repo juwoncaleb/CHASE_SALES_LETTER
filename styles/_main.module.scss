@@ -337,7 +337,7 @@
     margin-top: 70px;
     aspect-ratio: 1.7780429594;
   }
-  
+
   .fixed-background {
     color: white !important;
     background-image: url("./../public/palor.jpg"); /* Replace with your image path */
@@ -348,9 +348,19 @@
   .stat_header {
     margin-top: 50px;
   }
+  .get_started_button_green {
+    margin-top: 40px;
+    width: 200px;
+    height: 80px;
+    background-color: black;
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+  }
 }
-.serhant{
+.serhant {
   text-decoration: underline;
- background-color: red;
- color: white;
+  background-color: red;
+  color: white;
 }

@@ -4,14 +4,6 @@ import Link from "next/link";
 export default function Footer() {
 
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      // Update the currentImageIndex to the next image in the array
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 2500);
-
-    return () => clearInterval(interval);
-  }, []);
 
   return (
     <div>

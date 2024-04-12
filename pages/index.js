@@ -22,31 +22,56 @@ export default function Home() {
             </span>
           </p>
           <p className="sub_pain ">
-            The old way; door-knocking , cold calling, buy LEADS or
-            run ADS. Everyone swears this is the BEST way to grow. 
-            It works to some extent, however it requires a lot of effort and EVERYONE is doing this.
-            The cheapest and most reliable way to reach a wider audience is having a STRONG ONLINE PRESENCE
-            All our client started by watching the same
-            video you about to WATCH
+            The old way; door-knocking , cold calling, buy LEADS or run ADS.
+            Everyone swears this is the BEST way to grow. It works to some
+            extent, however it requires a lot of effort and EVERYONE is doing
+            this. The cheapest and most reliable way to reach a wider audience
+            is having a STRONG ONLINE PRESENCE All our client started by
+            watching the same video you about to WATCH
           </p>
           <p className="sub_pain"></p>
         </center>
         <iframe
           className="iframeEmbed"
-          src="https://killerplayer.com/watch/video/82f0d51d-49eb-4802-8aa2-42b9096fec16"
+          src="https://killerplayer.com/watch/video/c7f690ae-7131-4e42-bbd7-7a9d220c1be9"
           frameborder="0"
           allow="autoplay; gyroscope; picture-in-picture;"
           allowfullscreen
         ></iframe>
+
         <center>
-          <button  className="get_started_button_green"><a href="https://www.chasestudio.co/contact">Get Started </a></button>
+          <div className="flex justify-center gap-8">
+            <button className="get_started_button_green">
+              <a href="https://www.chasestudio.co/contact">Get Started </a>
+            </button>
+
+            <button className="get_started_button_green">
+              <a href="https://demolink-drab.vercel.app/">John's New Website </a>
+            </button>
+          </div>
         </center>
         <div className="fixed-background mt-14">
           <center className="stats">
             <p className="results"> THE ONLY WAY TO WIN</p>
             <div className="state_div">
               <p className="results_statment mb-8 mt-8">
-              The only way to win , win as big as <a className="serhant" href="https://www.instagram.com/serhant/?hl=en">SERHANT</a>- Biggest Realtor in New York, is to be likeable. PEOPLE BUY FROM PEOPLE! The only reason why we both could be a good fit, is not only due to my service. However it is based on if we have MUTUAL likeness for each other. Same with real estate, the only way to get AHEAD , to truly get AHEAD us by having and AUTHENTIC personality that people are drawn to. You also do not have to be a SECRET! Most realtors are good at their job , however people cant just find them. When you type realtors in [your location], how easy was it to find yourself on google. THIS IS THE TYPICAL CLIENT JOURNEY OF MOST HOMEBUYERS AND HOMESELLERS
+                The only way to win , win as big as{" "}
+                <a
+                  className="serhant"
+                  href="https://www.instagram.com/serhant/?hl=en"
+                >
+                  SERHANT
+                </a>
+                - Biggest Realtor in New York, is to be likeable. PEOPLE BUY
+                FROM PEOPLE! The only reason why we both could be a good fit, is
+                not only due to my service. However it is based on if we have
+                MUTUAL likeness for each other. Same with real estate, the only
+                way to get AHEAD , to truly get AHEAD us by having and AUTHENTIC
+                personality that people are drawn to. You also do not have to be
+                a SECRET! Most realtors are good at their job , however people
+                cant just find them. When you type realtors in [your location],
+                how easy was it to find yourself on google. THIS IS THE TYPICAL
+                CLIENT JOURNEY OF MOST HOMEBUYERS AND HOMESELLERS
               </p>
               <div className="flex services justify-around mt-14 mb-10">
                 <div>
@@ -88,8 +113,10 @@ export default function Home() {
               <p>and can nurture this leads directly</p>
             </div>
             <button className="get_started_button_green free">
-            <a href="https://www.chasestudio.co/contact">      Get 1 FREE VIDEO EDIT
- </a>
+              <a href="https://www.chasestudio.co/contact">
+                {" "}
+                Get 1 FREE VIDEO EDIT
+              </a>
             </button>
           </div>
           <iframe
@@ -261,7 +288,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
