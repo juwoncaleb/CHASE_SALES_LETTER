@@ -22,7 +22,8 @@ export default function Home() {
             </span>
           </p>
           <p className="sub_pain ">
-            The old way; door-knocking , cold calling, buy LEADS or run ADS.
+            The old way is ; door-knocking , cold calling, buying LEADS or running 
+              ADS.
             Everyone swears this is the BEST way to grow. It works to some
             extent, however it requires a lot of effort and EVERYONE is doing
             this. The cheapest and most reliable way to reach a wider audience
